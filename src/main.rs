@@ -18,7 +18,7 @@ fn main() {
     {
         // test 3:	
         {
-            let s4 = s1;
+            let s4 = s1;  // move
             let s2 = &s4;
         }
     }
