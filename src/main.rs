@@ -14,4 +14,12 @@ fn main() {
         let s4 = &mut s1;
         //let s3 = &s1;  // <- this will be error
     }
+
+    {
+        // test 3:	
+        {
+            let s4 = s1;
+            let s2 = &s4;
+        }
+    }
 }
